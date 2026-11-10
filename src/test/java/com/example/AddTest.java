@@ -9,6 +9,6 @@ public class AddTest {
     @Test
     public void testAdd() {
         int result = 10 + 20;
-        assertEquals(60, result);   // wrong on purpose: 10 + 20 is 30
+        assertEquals(30, result);   // correct now: 10 + 20 = 30   
     }
 }
